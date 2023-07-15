@@ -14,28 +14,34 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <link href="css/destyle.css" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
-  <!-- <link rel="icon" type="image/png" href="icon-192x192.png">
+  <link rel="icon" type="image/png" href="icon-192x192.png">
   <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
-  <link rel="icon" href="favicon.ico"> -->
+  <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <div class="header">
+
+    <div class="wrapper">
+
         <header class="header">
             <div class="header__log">
-                <a href="."><img src="img/log.svg" alt="ロゴ" alt=""></a>
+                <a href="."><img src="img/log.svg" alt="ロゴ"></a>
             </div>
             <div class="header__nav">
                 <nav class="gnav">
                     <ul class="gnav__list">
-                        <li class="gnav__item"><a href="." class="gnav__link gnav__link--active">ホーム</a>
-                        </li>
-                        <li class="gnav__item"><a href="." class="gnav__link">宿泊情報</a></li>
-                        <li class="gnav__item"><a href="." class="gnav__link">行きたいところ</a></li>
+                        <li class="gnav__item"><a href="." class="gnav__link gnav__link--active">ホーム</a></li>
+                        <li class="gnav__item"><a href="stay.html" class="gnav__link">宿泊情報</a></li>
+                        <li class="gnav__item"><a href="place.html" class="gnav__link">行きたいところ</a></li>
                     </ul>
                 </nav>
+                <button type="button" id="js-btn-menu" class="btn-menu">
+                    <span class="btn-menu__line"></span>
+                </button>
             </div>
         </header>
     </div>
     
 </body>
+
+
 </html>
