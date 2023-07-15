@@ -2,7 +2,7 @@
 
 :root {
   --link-color: #349bf4;
-  --main-color: #dd1b57;
+  --main-color: #00550e;
   --text-color: #333;
 }
 
@@ -147,7 +147,7 @@ img {
   align-items: center;
   justify-content: center;
   height: 600px;
-  background-image: url(img/pc_mv.jpg);
+  background-image: url(img/karuizawa_mv.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
