@@ -499,12 +499,22 @@ img {
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
+
   body {
     font-size: 15px;
   }
 
   .heading-primary {
     font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  img { 
+    max-width: 100%; 
+    height:auto;
   }
 
   /* レイアウト */
@@ -647,7 +657,7 @@ img {
   /* メインビジュアル */
   .mv {
     height: 460px;
-    background-image: url(img/sp_mv.jpg);
+    background-image: url(img/karuizawa_mv.jpg);
   }
 
   .mv__title {
@@ -687,6 +697,29 @@ img {
   .news-list__date {
     margin-right: 0;
   }
+
+  /* 集合場所 */
+  .place__inner {
+    display: block;
+  }
+
+  .place__info {
+    flex-direction: column;
+  }
+
+  .place__map { 
+    max-width: 500px; 
+    height:auto;
+  }
+
+  /*タイムスケジュール*/
+  .flex-schedule .area {
+    padding: 15px 10px;
+    display: block;
+    width: 230px;
+    border-left: 6px solid #c4e0c9;
+  }
+
 
   /* サービス */
   .service__heading {
