@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>宿泊情報</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Airbnbの宿泊地" />
+  <title>宿泊情報</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link href="css/destyle.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon-180x180.png">
+  <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
-    まだ書いてないよ〜ん。
+    <div class="wrppaer">
+        <header class="header">
+            <div class="header__logo">
+              <a href="."><img src="img/logo.svg" alt="ロゴ"></a>
+            </div>
+            <div class="header__nav">
+              <nav class="gnav">
+                <ul class="gnav__list">
+                  <li class="gnav__item"><a class="gnav__link" href=".">ホーム</a></li>
+                  <li class="gnav__item"><a class="gnav__link" href="stay.html">宿泊情報</a></li>
+                  <li class="gnav__item"><a class="gnav__link gnav__link--active" href="place.html">行きたいところ</a></li>
+                </ul>
+              </nav>
+              <button type="button" id="js-btn-menu" class="btn-menu">
+                <span class="btn-menu__line"></span>
+              </button>
+            </div>
+        </header>
+          
+        <!-- /header -->
+
+        <!--page-header-->
+        <div class="page-header">
+            <div class="page-header__titleArea">
+                <h2 class="page-header__title">宿泊宿情報</h2>
+            </div>
+        </div>
+        <!--/page-header-->
+
+        <!--content-->
+        <main class="content">
+
+            <!--company-info-->
+            <div class="company-info">
+            <div class="container">
+                <div class="company-info__table">
+                <table class="table-type01">
+                    <tbody>
+                    <tr>
+                        <th>最寄駅</th>
+                        <td>軽井沢駅(北口方面)</td>
+                    </tr>
+                    <tr>
+                        <th>チェックイン<br>チェックアウト</th>
+                        <td>15:00<br>12:00</td>
+                    </tr>
+                    <tr>
+                        <th>重要持ち物</th>
+                        <td>
+            
+                            歯ブラシ(宿に無いかも)<br>
+                            髭剃り<br>
+                            長袖・長ズボン・手袋・ニット帽<br>
+                            (↑カーリング用:) <a href="https://www.kazakoshi-park.jp/event-lesson/%e5%80%8b%e4%ba%ba%e5%90%91%e3%81%91%e3%82%ab%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0%e4%bd%93%e9%a8%93-3/?gclid=Cj0KCQjwqs6lBhCxARIsAG8YcDjxyfxblfVcvjbnUoUviWVWNlomxTHkihfm43ZdWk3zmqhS15AnkxUaApGYEALw_wcB">軽井沢風越公園</a></li>
+                            
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>所在地</th>
+                        <td>〒389-0104 長野県北佐久郡軽井沢町</td>
+                    </tr>
+                    <tr>
+                        <th>詳細情報(Airbnb)</th>
+                        <td><a href="https://www.airbnb.jp/rooms/898184023273239153?guests=1&adults=1&s=67&unique_share_id=65cc6e44-f1c0-4b21-bbb3-e7b04826c12a">Izumiya karuizawa</a>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="company-info__access">
+                <div class="company-info__map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6427.2300646017!2d138.63038949384486!3d36.345878889520485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dd37e9a3d8b33%3A0x2a3758a4a041016a!2z44CSMzg5LTAxMDQg6ZW36YeO55yM5YyX5L2Q5LmF6YOh6Lu95LqV5rKi55S66Lu95LqV5rKi5p2x!5e0!3m2!1sja!2sjp!4v1690005540565!5m2!1sja!2sjp"
+                    width="100%" height="auto" frameborder=" 0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+                <div class="company-info__map-link">
+                    <a href="https://goo.gl/maps/JxVKubbK42MgSSF48" target="_blank">Google mapで見る</a>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!--/company-info-->
+    
+            <!--company-news-->
+            <div class="company-news">
+            <div class="container">
+    
+                <div class="news-list">
+                <ul class="news-list__list">
+                    <li class="news-list__item">
+                    <a href="#" class="news-list__link">
+                        <div class="news-list__date">
+                        <time datetime="2023-07-22" class="news__date">2023.07.22</time>
+                        </div>
+                        <div class="news-list__title">
+                        サイト作りました。
+                        </div>
+                    </a>
+                </ul>
+                </div>
+    
+            </div>
+            </div>
+            <!--/company-news-->
+    
+        </main>
+        <!--/content-->
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
